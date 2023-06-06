@@ -1,5 +1,5 @@
 ## Gestor de tareas
-Creé un programa de línea de comandos que permita al usuario gestionar una lista de tareas. El programa utiliza la biblioteca inquirer para interactuar con el usuario y recopilar la información necesaria.
+Creé un programa de línea de comandos que permita al usuario gestionar una lista de tareas desde la consola. El programa utiliza la biblioteca inquirer para interactuar con el usuario y recopilar la información necesaria.
 
 El programa ofrece las siguientes funcionalidades:
 
