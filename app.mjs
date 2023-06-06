@@ -100,6 +100,7 @@ const marcarTarea = () => {
 };
 
 const eliminarTarea = () => {
+  if(listaDeTareas.length < 1) return console.log(chalk.red('No hay tareas en la lista de tareas.'))
   const opciones = listaDeTareas.map((tarea, index) => ({
     name: `${index + 1}.${tarea.nombre}`,
     value: tarea,
